@@ -16,9 +16,7 @@
 ## 📊 GitHubコントリビューション
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/night.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" />
-    <img alt="3Dコントリビューショングラフ" src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" width="600" />
+    <img alt="3Dコントリビューショングラフ" src="profile-3d-contrib/profile-night-rainbow.svg" width="600" />
   </picture>
 </p>
 
