@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 - 🎓 I'm currently studying Software Architecture
-- 💼 I'm working as Software Engineer Impersonator
+- 💼 I'm working as aSoftware Engineer Impersonator
 
 ## 🛠 Skills
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -21,28 +21,32 @@
 
 ## 📊 GitHub Stats
 <p align="left">
-  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=TsunakawaShunya&theme=onedark&show_icons=true" />
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TsunakawaShunya&layout=compact&show_icons=true&theme=onedark" />
+  <picture>
+        <source media="(prefers-color-scheme: dark)"  srcset="output/metrics.base.svg" width="400" />
+	<source media="(prefers-color-scheme: light)" srcset="output/metrics.base.svg" width="400" />
+	<img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" />
+  </picture>
+  <picture>
+   	<source media="(prefers-color-scheme: dark)"  srcset="output/details.svg" width="400" />
+	<source media="(prefers-color-scheme: light)" srcset="output/details.svg" width="400" />
+	<img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" />
+  </picture>
 </p>
 
-## 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=TsunakawaShunya&theme=onedark&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="left" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="profile-3d-contrib/profile-night-rainbow.svg" width="700" />
+	  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg" width="700" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" />
+	</picture>
+</p>　
 
-## 🌟 Featured Projects
 <p align="left">
-  <a href="[プロジェクトURL]">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TsunakawaShunya&repo=[リポジトリ名]&theme=onedark" />
-  </a>
-  <a href="[プロジェクトURL]">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TsunakawaShunya&repo=[リポジトリ名]&theme=onedark" />
-  </a>
-</p>
-
-## 📈 Contribution Graph
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=TsunakawaShunya&theme=github)
-
-## 🐍 Contribution Snake
-![snake gif](https://github.com/TsunakawaShunya/TsunakawaShunya/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: light)"  srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
+  <source media="(prefers-color-scheme: dark)"  srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
+ <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/output-3d-contrib/day.svg" />
+</picture>
 
 ## 📊 Weekly Development Breakdown
 <!--START_SECTION:waka-->

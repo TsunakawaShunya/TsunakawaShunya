@@ -1,19 +1,28 @@
-name: GitHub Profile 3D Contrib
+name: generate 3d chart for profile contributions
 
 on:
-  schedule: # 00:00 JST == 15:00 UTC
-    - cron: "0 15 * * *"
+  # run automatically every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+
+  # allows to manually run the job at any time
   workflow_dispatch:
+
+  # run on every push on the main branch
+  # don't forget to change if you're using 'master' branch
+  push:
+    branches:
+    - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v2
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
@@ -22,23 +31,4 @@ jobs:
           git add -A .
           git commit -m "generated"
           git push
-WakaTime統計用の設定ファイル（.github/workflows/waka-readme.yml）:
 
-name: Waka Readme
-
-on:
-  schedule:
-    - cron: '30 18 * * *'
-  workflow_dispatch:
-jobs:
-  update-readme:
-    name: Update Readme with Metrics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: anmol098/waka-readme-stats@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          SHOW_PROJECTS: "False"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_LOC_CHART: "False"
