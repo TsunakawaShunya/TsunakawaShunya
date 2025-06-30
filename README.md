@@ -1,48 +1,23 @@
-<div align="center">
-  <h1 style="color:#0070C9;">shunya</h1>
-  <p style="color:#4A4A4A;">ソフトウェアエンジニア</p>
-</div>
+<h1 align="center">Hi 👋, I'm shunya</h1>
+<h3 align="center">A passionate Software developer from Japan</h3>
 
-## 📧 連絡先
-[![Email](https://img.shields.io/badge/メール-0070C9?style=flat&logo=gmail&logoColor=white)](mailto:uu.tsunakawa@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0070C9?style=flat&logo=github&logoColor=white)](https://github.com/TsunakawaShunya)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=tsunakawashunya&label=Profile%20views&color=0e75b6&style=flat" alt="tsunakawashunya" /> </p>
 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tsunakawashunya" alt="tsunakawashunya" /></a> </p>
 
-## 🛠 スキル
-![React](https://img.shields.io/badge/-React-0070C9?style=flat&logo=react&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-0070C9?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-0070C9?style=flat&logo=docker&logoColor=white)
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-## 📊 GitHubコントリビューション
-<p align="center">
-  <picture>
-    <img alt="3Dコントリビューショングラフ" src="profile-3d-contrib/profile-night-rainbow.svg" width="600" />
-  </picture>
+- 🌱 I’m currently learning **Everything**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
 </p>
 
-## 📈 GitHubステータス
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="output/metrics.base.svg" width="400" />
-    <source media="(prefers-color-scheme: light)" srcset="output/metrics.base.svg" width="400" />
-    <img alt="GitHubステータス" src="output/metrics.base.svg" />
-  </picture>
-</p>
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://rubyonrails.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
 
-## 🏆 実績
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
-    <source media="(prefers-color-scheme: light)" srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
-    <img alt="GitHub実績" src="output/metrics.plugin.achievements.compact.svg" />
-  </picture>
-</p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tsunakawashunya&show_icons=true&locale=en&layout=compact" alt="tsunakawashunya" /></p>
 
-## 📊 週間開発内訳
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tsunakawashunya&show_icons=true&locale=en" alt="tsunakawashunya" /></p>
 
----
-<p align="center" style="color:#4A4A4A;">
-  <img src="https://komarev.com/ghpvc/?username=TsunakawaShunya&color=0070C9" alt="プロフィール閲覧数" />
-</p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tsunakawashunya&" alt="tsunakawashunya" /></p>
