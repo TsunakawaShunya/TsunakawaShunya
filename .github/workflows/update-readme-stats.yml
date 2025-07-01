@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'  # Run daily at midnight
-  workflow_dispatch
+  push:
+    branches:
+      - main
+      - master
   
 jobs:
   update-readme:
