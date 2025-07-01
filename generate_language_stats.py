@@ -13,18 +13,29 @@ def get_github_api_headers():
 
 def get_repositories():
     headers = get_github_api_headers()
+    repositories = []
     
     # Get user's repositories
     user_repos_url = 'https://api.github.com/user/repos'
     user_repos_response = requests.get(user_repos_url, headers=headers, params={'type': 'all', 'per_page': 100})
-    user_repos = user_repos_response.json()
+    
+    if user_repos_response.status_code == 200:
+        repositories.extend(user_repos_response.json())
+    else:
+        print(f"Error fetching user repositories: {user_repos_response.status_code}")
+        print(user_repos_response.text)
     
     # Get C-FO organization repositories
     org_repos_url = 'https://api.github.com/orgs/C-FO/repos'
     org_repos_response = requests.get(org_repos_url, headers=headers, params={'per_page': 100})
-    org_repos = org_repos_response.json()
     
-    return user_repos + org_repos
+    if org_repos_response.status_code == 200:
+        repositories.extend(org_repos_response.json())
+    else:
+        print(f"Error fetching organization repositories: {org_repos_response.status_code}")
+        print(org_repos_response.text)
+    
+    return repositories
 
 def get_repository_languages(repo):
     headers = get_github_api_headers()
