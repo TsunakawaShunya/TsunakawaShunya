@@ -17,6 +17,14 @@
 
 <br/>  
 
+
+## Commit Languages & Breakdown  
+<div align="center">
+<img src="https://raw.githubusercontent.com/TsunakawaShunya/TsunakawaShunya/main/output/details.svg" alt="commit languages breakdown" />
+</div>
+
+<br/>  
+
 ## Connect with me  
 <div align="center">
 <a href="https://github.com/TsunakawaShunya" target="_blank">
